@@ -1,0 +1,113 @@
+
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0; /* Garantindo que fique no topo */
+    left: 0; /* Garantindo que fique à esquerda */
+    z-index: -1; /* Para que fique atrás do conteúdo */
+    background-color: #400089; /* Cor de fundo */
+}
+
+/* Conteúdo principal */
+.container {
+    position: relative; /* Para que o conteúdo fique acima do fundo */
+    z-index: 1; /* Colocando conteúdo acima da animação */
+}
+
+/* Estilos adicionais */
+.titulo {
+    text-align: center;
+    margin: 1em 1em 1em 1em;
+    font-size: 3em;
+}
+.cabecalho {
+    background: linear-gradient(to right, #5B22E8, #9c23ff);
+    padding: 1em;
+    position: relative;
+    z-index: 1;
+    animation: nebulahero 10s infinite linear; 
+}
+.secao-introdução {
+    padding: 5em;
+    padding-bottom: 3em;
+}
+.titulo-secundario{
+    text-align: center;
+    margin: 1em 1em 1em 1em;
+    margin-bottom: 5em;
+    font-size: 2em;
+    z-index: 1;
+    animation: nebulahero 10s infinite linear;
+    padding: 1em 2em 1em 2em;
+    background: linear-gradient(to right, #5B22E8, #9c23ff);
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    animation: nebulahero 10s infinite linear;
+    padding: 1em 2em 1em 2em;
+}
+.introducao {
+    text-align: center;
+    margin: 1em 1em 1em 1em;
+    font-size: 2em;
+    background: linear-gradient(to right, #5B22E8, #9c23ff);
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    animation: nebulahero 10s infinite linear;
+    padding: 1em 2em 1em 2em;
+}
+.botao{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1em 2em 1em 2em;
+    margin: 0 1em 0 1em;
+    background: linear-gradient(to right, #5B22E8, #9c23ff);
+    border: 2px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 0.7s;
+    position: relative;
+    z-index: 1;
+    animation: nebulahero 10s infinite linear;
+}
+@keyframes nebulahero {
+    0% { filter: hue-rotate(0deg); }
+    100% { filter: hue-rotate(-360deg); }
+}
+.secao-areas{
+    text-align: center;
+}
+.botao:hover{      /* Fazendo com que o botão aumente quando eu passar o mouse*/
+    transition: 0.7s;
+    font-size: 2.1em;
+}
+.titulo-disciplina{
+    text-align: center;
+    margin: 2em 1em 2em 1em;
+    margin-bottom: 5em;
+    font-size: 2em;
+}
+.container-rodape{
+    background: linear-gradient(to right, #5B22E8, #9c23ff);
+    margin-top: 10em;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    animation: nebulahero 10s infinite linear; 
+    
+}
+.imagem-iot{
+    width: 5%;
+}
